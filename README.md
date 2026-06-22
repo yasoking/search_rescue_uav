@@ -1,59 +1,25 @@
-# 🚁 Autonomous Rescue Route Optimization Drone
+# AeroRoute Emergency UAV System
 
-## 📌 Project Overview
-This project presents a UAV (drone) system designed for **emergency response support**, focusing on identifying and suggesting the most efficient route for rescue operations such as ambulances or police units.
+**TEKNOFEST 2026 — Proposal Stage (not built)**
 
-The system is built around a **single-mission engineering philosophy**, where the drone is optimized for one critical task rather than multiple complex missions, improving reliability and performance.
+## Overview
 
----
+This project proposed a quadcopter system using aerial perception and AI-based road-condition analysis to identify the fastest available route for ambulances and emergency vehicles in real time.
 
-## 🎯 Mission Objective
-- Detect and evaluate possible routes in real-time scenarios  
-- Provide optimal route guidance for emergency response systems  
-- Reduce decision time in critical rescue operations  
-- Focus on a single, high-impact autonomous mission  
+## Status
 
----
+This project's technical proposal did not advance past TEKNOFEST's review stage, so it did not receive competition funding and was not physically built. The work in this repository reflects the design and engineering work completed up to that point.
 
-## 🛠️ System Design
+## What's in this repository
 
-### 🧱 Airframe
-- Custom-built **carbon fiber frame**
-- Optimized for **low weight and high structural strength**
-- Designed for stable flight dynamics
+- **CAD_Design** — full CAD modeling of the quadcopter airframe (SolidWorks)
+- **Simulation** — structural simulation evaluating stress distribution and deformation under expected flight loads
+- **Electrical_System_Selection** — selected electrical component set (BOM) and structural-electrical mounting plan
 
-### ⚙️ Propulsion System
-- Carefully selected motors for efficiency and stability  
-- Matched propeller configuration for balanced thrust  
-- Designed for endurance and responsive control  
+## What we learned
 
-### 🧠 System Concept
-- Mission-specific UAV logic (single objective optimization)  
-- Route evaluation and selection framework  
-- Designed for integration with emergency response workflows  
+The core route-optimization concept — using aerial perception to recommend real-time paths to emergency vehicles — was completed at the design and simulation level. The proposal did not advance past technical review; this repository documents the design work completed through that stage.
 
----
+## Team
 
-## 🔍 Engineering Focus
-- Lightweight composite structure design  
-- Flight stability and efficiency optimization  
-- System-level UAV design integration  
-- Applied autonomous decision-making concept  
-
----
-
-## 📈 Project Outcome
-This project demonstrates how a focused UAV design approach can improve system reliability and effectiveness in **rescue and emergency response applications**, by prioritizing a single mission objective instead of a multi-role system.
-
----
-
-## 🚀 Future Improvements
-- Integration with real-time mapping APIs  
-- AI-based route prediction models  
-- Live sensor fusion (GPS + vision + IMU)  
-- Autonomous flight testing and field validation  
-
----
-
-## 👨‍💻 Status
-🔬 Prototype / Academic Engineering Project
+Developed as part of a TEKNOFEST 2026 competition team.
